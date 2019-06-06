@@ -31,4 +31,5 @@ echo Please add a commit comment...
 read comment
 git commit -m "$comment"
 
-
+#Push to git repo
+git push -u origin master
