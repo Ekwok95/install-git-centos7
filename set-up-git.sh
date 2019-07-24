@@ -17,7 +17,8 @@ cd /home/$localuser/$folder
 git init
 
 #Set up GitHub repo
-echo Add a Git repo URL...
+echo Add a Git repo URL. When logging into GitHub, if using MFA, please ensure to use the personal access token as the password which
+is generated in the account settings.
 read reponame
 git remote add origin $reponame
 
